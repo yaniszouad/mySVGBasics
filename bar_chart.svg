@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+   <!--
+      Example from: https://www.petercollingridge.co.uk/tutorials/svg/interactive/mouseover-effects/
+   -->
+   <style>
+      .axis {
+        stroke: #333333;
+        stroke-width: 3;
+      }
+      .grid {
+        stroke: #dddddd;
+        stroke-width: 1;
+        opacity: .25;
+      }
+      .label {
+        cursor: default;
+        text-anchor: middle;
+        font-size: 14px;
+        fill: #444444
+      }
+     .bar {
+        fill: #a9a9a9;
+        opacity: 0.6;
+      }
+      .bar:hover {
+          fill: #ec008c;
+          opacity: 1;
+      }
+      .series:hover .bar {
+          fill: #ec008c;
+          opacity: 1;
+      }
+    </style>
+
+  <rect class="bar" x="50" y="60" width="50" height="120"/>
+  <text class="label" x="75" y="195" text-anchor="middle">Dogs</text>
+
+  <rect class="bar" x="110" y="10" width="50" height="170"/>
+  <text class="label" x="135" y="195" text-anchor="middle">Cats</text>
+
+  <line class="grid" x1="10" y1="130.5" x2="200" y2="130.5"/>
+  <line class="grid" x1="10" y1="80.5" x2="200" y2="80.5"/>
+  <line class="grid" x1="10" y1="30.5" x2="200" y2="30.5"/>
+
+  <line class="axis" x1="10" y1="181" x2="200" y2="181" stroke-linecap="round"/>
+  <line class="axis" x1="10" y1="0" x2="10" y2="181" stroke-linecap="round"/>
+
+</svg>

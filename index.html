@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>SVG Basics - Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>SVG Basics - Demo</h1>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="50%" height="50%">
+    <rect class="bar" x="50" y="60" width="50" height="120"/>
+    <text class="label" x="75" y="195" text-anchor="middle">Dogs</text>
+
+    <rect class="bar" x="110" y="10" width="50" height="170"/>
+    <text class="label" x="135" y="195" text-anchor="middle">Cats</text>
+
+    <line class="grid" x1="10" y1="130.5" x2="200" y2="130.5"/>
+    <line class="grid" x1="10" y1="80.5" x2="200" y2="80.5"/>
+    <line class="grid" x1="10" y1="30.5" x2="200" y2="30.5"/>
+
+    <line class="axis" x1="10" y1="181" x2="200" y2="181" stroke-linecap="round"/>
+    <line class="axis" x1="10" y1="0" x2="10" y2="181" stroke-linecap="round"/>
+  </svg>
+
+  <div>
+  Things to notice:
+    <ul>
+      <li>The "size" of the svg depends on width/height attributes</li>
+      <li>SVG styling may be included within the svg itself, or along with other css styling</li>
+    </ul>
+  </div>
+
+</body>
+</html>
