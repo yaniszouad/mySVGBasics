@@ -38,11 +38,14 @@
   <rect class="bar" x="110" y="10" width="50" height="170"/>
   <text class="label" x="135" y="195" text-anchor="middle">Cats</text>
 
-  <line class="grid" x1="10" y1="130.5" x2="200" y2="130.5"/>
-  <line class="grid" x1="10" y1="80.5" x2="200" y2="80.5"/>
-  <line class="grid" x1="10" y1="30.5" x2="200" y2="30.5"/>
+  <rect class="bar" x="170" y="35" width="50" height="145"/>
+  <text class="label" x="195" y="195" text-anchor="middle">Tigers</text>
 
-  <line class="axis" x1="10" y1="181" x2="200" y2="181" stroke-linecap="round"/>
+  <line class="grid" x1="10" y1="130.5" x2="250" y2="130.5"/>
+  <line class="grid" x1="10" y1="80.5" x2="250" y2="80.5"/>
+  <line class="grid" x1="10" y1="30.5" x2="250" y2="30.5"/>
+
+  <line class="axis" x1="10" y1="181" x2="250" y2="181" stroke-linecap="round"/>
   <line class="axis" x1="10" y1="0" x2="10" y2="181" stroke-linecap="round"/>
 
 </svg>
