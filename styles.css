@@ -25,3 +25,22 @@
     fill: #ec008c;
     opacity: 1;
 }
+
+.svg {
+  border-style: solid;
+}
+
+#Dogs{
+  fill: #FF0000;
+  opacity: 1;
+}
+
+#Cats{
+  fill: #A020F0;
+  opacity: 1;
+}
+
+#Tigers{
+  fill: #454B1B;
+  opacity: 1;
+}
